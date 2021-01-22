@@ -1,0 +1,10 @@
+.header {
+    height: 80px;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        height: 50px;
+    }
+}

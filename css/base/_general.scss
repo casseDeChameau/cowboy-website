@@ -1,0 +1,13 @@
+html {
+    background-color: $bgcolor;
+}
+
+::selection {
+    background-color: #ffeaef;
+}
+
+@media screen and (max-width: 1024px) {
+    html {
+        background-color: #fff;
+    }
+}

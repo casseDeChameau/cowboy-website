@@ -1,0 +1,110 @@
+.splash {
+    display: flex;
+    padding: 30px 10px 200px;
+    top: 100px;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h3 {
+        color: $red;
+        font-size: 2rem;
+        font-weight: 600;
+        letter-spacing: -0.1rem;
+        margin: 0 0 -15px;
+    }
+
+    h2 {
+        font-size: 5.5rem;
+        font-weight: 600;
+        letter-spacing: .1rem;
+        margin: 0;
+    }
+
+    .bike-splash {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 650px;
+        transform: translateY(-10%);
+    }
+
+    .bike-shadow {
+        transform: translateY(-40%);
+        width: 135%;
+        margin-bottom: -20%;
+    }
+
+    .two-btn {
+        position: relative;
+        margin: 0 0 20px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .two-btn .btn {
+        padding: 15px 50px;
+    }
+
+    p {
+        font-size: 1.25rem;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .splash {
+        .two-btn {
+            flex-flow: column nowrap;
+        }
+
+        .bike-splash {
+            width: 95%;
+            transform: translateY(-4%);
+        }
+
+        h3 {
+            font-size: 1.3rem;
+        }
+
+        h2 {
+            font-size: 4rem;
+        }
+    }
+}
+
+.ride {
+    .txt-bloc {
+        width: 800px;
+        padding: 6%;
+    }
+
+    h2 {
+        color: $red;
+        font-size: 3rem;
+        font-weight: 500;
+        display: inline;
+        margin: 0;
+        line-height: 3.1rem;
+        letter-spacing: -.1rem;
+    }
+
+    p {
+        font-weight: 500;
+        display: inline;
+        margin: 0;
+        font-size: 3rem;
+        letter-spacing: -.1rem;
+        line-height: 3.1rem;
+    }
+
+    video {
+        width: 100%;
+    }
+}
+
+.remplissage {
+    height: 1000px;
+}
